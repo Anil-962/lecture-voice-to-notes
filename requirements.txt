@@ -1,7 +1,7 @@
 streamlit
-openai-whisper
 torch
 transformers
 sentencepiece
+openai-whisper
+reportlab
 ffmpeg-python
-
