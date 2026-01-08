@@ -1,3 +1,10 @@
+import sys
+import os
+
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if ROOT_DIR not in sys.path:
+    sys.path.insert(0, ROOT_DIR)
+
 import streamlit as st
 import tempfile
 import os
@@ -61,3 +68,4 @@ from src.pipeline import lecture_to_study_material
 @st.cache_data(show_spinner=False)
 def cached_generation(audio_path):
     return lecture_to_study_material(audio_path)
+
