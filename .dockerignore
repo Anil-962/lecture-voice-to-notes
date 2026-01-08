@@ -1,0 +1,16 @@
+# Version control
+.git
+.gitignore
+
+# Environment variables
+.env
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+.venv/
+
+# Audio and Data
+temp_lecture_audio.mp3
+data/outputs/*
