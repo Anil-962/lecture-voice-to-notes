@@ -1,6 +1,7 @@
-openai
-whisper
-torch
-nltk
 streamlit
-python-dotenv
+openai-whisper
+torch
+transformers
+sentencepiece
+ffmpeg-python
+
